@@ -16,6 +16,11 @@
 			text-align:center;
 		}
 	</style>
+	<script>
+		$(document).ready(function() {
+			$('.Berechnung').focus().select();
+			});
+	</script>
 </head>
 <body>
 	<div class="main">
