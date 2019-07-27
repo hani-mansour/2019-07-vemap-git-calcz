@@ -3,8 +3,12 @@
 <head>
 	<title>Schulung</title>
 	<meta charset="UTF-8">
+	<style>
+		
+	</style>
 </head>
 <body>
+	<div class="main">
 <form action="<?php  echo $_SERVER["PHP_SELF"];   ?>" method="post">
 
 	Zahl1<br>
@@ -24,6 +28,7 @@
 	<input type="submit" value="Absenden"><br>
 
 </form>
+</div>
 
 <?php
 if(isset($_POST["zahl1"]))
