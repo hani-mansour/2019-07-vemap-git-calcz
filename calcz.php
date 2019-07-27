@@ -16,6 +16,7 @@
 			text-align:center;
 		}
 	</style>
+	<script src="https://code.jquuery.com/jquery-3.4.1.min.js"></script>
 	<script>
 		$(document).ready(function() {
 			$('.Berechnung').focus().select();
