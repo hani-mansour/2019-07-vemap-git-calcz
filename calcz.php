@@ -11,6 +11,10 @@
 		.hidden {
 			display: none;
 		}
+		.ergebnis{
+			font-size:1.5rem;
+			text-align:center;
+		}
 	</style>
 </head>
 <body>
@@ -35,7 +39,7 @@
 
 </form>
 </div>
-
+<div class="ergebnis">
 <?php
 if(isset($_POST["zahl1"]))
 {
@@ -76,6 +80,6 @@ if(isset($_POST["zahl1"]))
 
 }
 ?>
-
+</div>
 </body>
 </html>
