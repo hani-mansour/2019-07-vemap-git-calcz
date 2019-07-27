@@ -4,7 +4,10 @@
 	<title>Schulung</title>
 	<meta charset="UTF-8">
 	<style>
-		
+		.main {
+			text-align: center;
+			margin-top: 45vh;
+		}
 	</style>
 </head>
 <body>
