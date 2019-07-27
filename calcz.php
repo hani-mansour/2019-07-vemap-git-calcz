@@ -8,6 +8,9 @@
 			text-align: center;
 			margin-top: 45vh;
 		}
+		.hidden {
+			display: none;
+		}
 	</style>
 </head>
 <body>
@@ -28,7 +31,7 @@
 	Zahl2<br>
 	<input type="text" name="zahl2"><br>
 
-	<input type="submit" value="Absenden"><br>
+	<input type="submit" value="Absenden" class="hidden"><br>
 
 </form>
 </div>
